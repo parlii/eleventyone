@@ -3,9 +3,9 @@ title: Projects
 layout: layouts/base.njk
 ---
 
-## Projects
+<!-- ## Projects
 
-The pages found in in the posts
+The pages found in in the posts -->
 
 <ul class="listing">
 {%- for page in collections.post -%}
