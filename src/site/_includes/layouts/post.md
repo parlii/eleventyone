@@ -4,14 +4,17 @@ pageClass: posts
 templateEngineOverride: njk, md
 ---
 
-<p class="date">
-  Posted as an example, on <time datetime="{{ date }}">{{ date | dateDisplay }}</time>
-</p>
+
 <main>
+
+[Open]({{link}})
+
+
   {{ content | safe }}
+
   <div class="footnote">
-    <p>
-      This page is part of the posts section.
-    </p>
+    <!-- <p class="date">
+      Posted: <time datetime="{{ date }}">{{ date | dateDisplay }}</time>
+    </p> -->
   </div>
 </main>

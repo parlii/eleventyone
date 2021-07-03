@@ -11,7 +11,7 @@
   color: #385780;
 }
 html {
-  background-color: #213b5c;
+  /* background-color: #213b5c; */
 }
 body {
   text-align: center;
@@ -22,7 +22,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   min-height: 100vh;
-  background-image: url("/images/bg-grid.png");
+  /* background-image: url("/images/bg-grid.png"); */
 }
 @media (min-width: 740px) {
   body {
@@ -33,7 +33,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  text-align: left;
+  text-align: center;
 }
 @media (min-width: 740px) {
   .container {
